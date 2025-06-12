@@ -11,7 +11,8 @@ import {
   Globe,
   Heart,
   Star,
-  Zap
+  Zap,
+  Facebook
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -47,6 +48,7 @@ const footerSections = [
 
 const socialLinks = [
   { icon: Linkedin, href: "https://www.linkedin.com/company/vara-edtech", label: "LinkedIn" },
+  { icon: Facebook, href: "https://www.facebook.com/varaedtech.official.thailand/", label: "Facebook" },
   { icon: Twitter, href: "https://x.com/EdtechVara", label: "Twitter" },
   { icon: Globe, href: "https://varaedtech.com", label: "Head Company Website" },
 ];
