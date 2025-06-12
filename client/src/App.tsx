@@ -11,7 +11,7 @@ import About from "@/pages/about";
 import Portfolio from "@/pages/portfolio";
 import Contact from "@/pages/contact";
 import NotFound from "@/pages/not-found";
-
+import ScrollToTop from "./lib/scrolltop";
 function Router() {
   return (
     <Switch>
@@ -32,6 +32,7 @@ function App() {
         <div className="min-h-screen flex flex-col">
           <Navigation />
           <main className="flex-1">
+            <ScrollToTop />
             <Router />
           </main>
           <Footer />
