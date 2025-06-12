@@ -6,7 +6,6 @@ import {
   Mail, 
   ExternalLink, 
   ArrowUp,
-  Github,
   Linkedin,
   Twitter,
   Globe,
@@ -47,10 +46,9 @@ const footerSections = [
 ];
 
 const socialLinks = [
-  { icon: Github, href: "#", label: "GitHub" },
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
-  { icon: Twitter, href: "#", label: "Twitter" },
-  { icon: Globe, href: "#", label: "Website" },
+  { icon: Linkedin, href: "https://www.linkedin.com/company/vara-edtech", label: "LinkedIn" },
+  { icon: Twitter, href: "https://x.com/EdtechVara", label: "Twitter" },
+  { icon: Globe, href: "https://varaedtech.com", label: "Head Company Website" },
 ];
 
 const stats = [
