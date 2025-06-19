@@ -1,0 +1,10 @@
+{
+    apps : [
+      {
+        name      : "siamtechmedia",
+        script    : "npx",
+        interpreter: "none",
+        args: "serve -s dist -p 9002"
+      }
+    ]
+  }
