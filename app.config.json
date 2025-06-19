@@ -4,7 +4,7 @@
         name      : "siamtechmedia",
         script    : "npx",
         interpreter: "none",
-        args: "serve -s dist -p 9002"
+        args: "serve -s dist/index.js -p 9002"
       }
     ]
   }
